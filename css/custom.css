@@ -1,0 +1,70 @@
+.navbar-default {
+  background: transparent;
+  border: 0;
+  transition: .3s;
+}
+
+.is-scrolled .navbar-default {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu>li>a {
+    padding: 7px 20px;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: rgba(255, 255, 255, .8);
+  transition: .3s;
+}
+.navbar-default .navbar-brand:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgba(255, 255, 255, .8);
+  transition: .3s;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.container {
+  position: relative;
+}
+.jumbotron {
+  color: #fff;
+  padding-top: 50px;
+  background: url(../img/green.jpeg) no-repeat center center;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+}
+.welcome-message {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.btn {
+  border-radius: 0;
+  border: 0;
+}
+.row {
+  padding: 0 1em;
+}
+
+@media (min-width: 768px) {
+  .navbar-right {
+    padding-right: 5em;
+  }
+}
